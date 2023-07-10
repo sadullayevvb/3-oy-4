@@ -1,0 +1,290 @@
+body{
+  padding: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+.container{
+  width: 1330px;
+  margin: 0 auto;
+}
+
+.logo-icon {
+  position: relative;
+  width: 68px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logo {
+  position: relative;
+  letter-spacing: -0.04em;
+}
+.logo-parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.why-open-enterprise {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.request-early-access {
+  position: relative;
+  letter-spacing: -0.02em;
+  color: #71a894;
+}
+.nav-links {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+  font-size: 20px;
+  font-family: 'Proxima Nova';
+  transition: 0.3s ease;
+}
+.nav-links:hover{
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.nav {
+  position: relative;
+  width: 100%;
+  height: 43px;
+  text-align: left;
+  font-size: 32px;
+  color: #303031;
+  font-family: 'Futura Round Demi';
+}
+.hero-section{
+  display: flex;
+
+}
+.title-hero-section{
+  	position: relative;
+  	font-size: 64px;
+
+  	font-family: "Bely Display";
+  	color: #303031;
+  	text-align: left;
+  	display: inline-block;
+  	width: 550px;
+    margin-top: 191px;
+}
+.text-hero-section{
+  width: 608px;
+  color: var(--gray, #66645E);
+font-family: "Proxima Nova";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.48px;
+margin-top: 24px;
+}
+.right-hero-section{
+  margin-top: 160px;
+}
+.service-section{
+  margin-bottom: 170px;
+}
+.service-section-title{
+color: var(--black, #303031);
+text-align: center;
+font-family: "Bely Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 64px;
+margin-top: 300px;
+margin-bottom: 24px; 
+}
+.service-section-text{
+color: var(--black, #303031);
+text-align: center;
+font-family: "Proxima Nova";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: -0.36px;
+width: 895px;
+margin: 0 auto;
+}
+.service-section-ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.service-section-li{
+  width: 427px;
+  height: 340px;
+  border-radius: 8px;
+background: var(--white, #FFF);
+box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+text-align: center;
+margin-top: 48px;
+transition: 0.4s ease;
+}
+.service-section-li:hover{
+  cursor: pointer;
+  color: white;
+  background-color: black;
+
+}
+.service-section-li-title{
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.organization{
+  display: flex;
+}
+.feature-info{
+  position: relative;
+width: 644px;
+height: 334px;
+text-align: left;
+font-size: 18px;
+color: #303031;
+font-family: "Proxima Nova";
+
+}
+
+.organization-title{
+margin-top: 24px;
+margin-bottom: 24px;
+font-size: 48px;
+line-height: 64px;
+font-family: "Bely Display";
+color: #303031;
+text-align: left;
+}
+
+
+.members-widget{
+  width: 484px;
+  position: relative;
+  border-radius: 16px;
+  background-color: #fff;
+  border: 4px solid #303031;
+  box-sizing: border-box;
+  height: 400px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24px;
+  color: #303031;
+  font-family: "Novel Mono Pro";
+}
+.members {
+  position: absolute;
+  top: 32px;
+  left: 40px;
+  font-size: 32px;
+  letter-spacing: -0.02em;
+  line-height: 40px;
+}
+.member-icon {
+  position: absolute;
+  top: 104px;
+  left: 40px;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.dillon-kydd {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 26px;
+}
+.shares {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  line-height: 26px;
+  font-weight: 500;
+  color: #66645e;
+}
+.name-shares {
+  position: absolute;
+  top: 112px;
+  left: 128px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.member-icon1 {
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.name-shares1 {
+  position: absolute;
+  top: 208px;
+  left: 128px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.member-icon2 {
+  position: absolute;
+  top: 296px;
+  left: 40px;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.name-shares2 {
+  position: absolute;
+  top: 304px;
+  left: 128px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.members-widget {
+  position: relative;
+  border-radius: 16px;
+  background-color: #fff;
+  border: 4px solid #303031;
+  box-sizing: border-box;
+  width: 484px;
+  height: 400px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24px;
+  color: #303031;
+  font-family: 'Novel Mono Pro';
+}
+
